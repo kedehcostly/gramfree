@@ -591,6 +591,19 @@ footer div {
     font-weight: bold;
   }
   .reviews {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-bottom: 3rem;
   }
   .reviews .latest {
@@ -620,11 +633,23 @@ footer div {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    align-items: center;
     margin: 0 7rem;
   }
   .reviews .flex .items {
-    margin-left: auto;
-    margin-right: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 370px;
     margin-bottom: 2.5rem;
   }

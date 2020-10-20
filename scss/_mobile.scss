@@ -210,6 +210,10 @@
   }
 
   .reviews {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 3rem;
     .latest {
       text-align: center;
@@ -230,13 +234,16 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
+      align-items: center;
 
       align-items: center;
       margin: 0 7rem;
 
       .items {
-        margin-left: auto;
-        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         width: 370px;
         margin-bottom: 2.5rem;
 
