@@ -415,6 +415,21 @@ footer div {
     letter-spacing: 0.1rem;
     margin-bottom: 2.5rem;
   }
+  .service {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
   .service img {
     width: 70%;
     margin-left: 8rem;
@@ -501,9 +516,27 @@ footer div {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .trans .transactions {
-    width: 450px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-top: 4rem;
   }
   .trans .transactions h2 {
@@ -515,10 +548,8 @@ footer div {
     color: #636060;
     line-height: 1.7rem;
   }
-  .currency-img {
-    margin-right: 20px;
-  }
   .currency-img img {
+    padding-right: 10rem;
     width: 125%;
   }
   .site {
@@ -583,12 +614,17 @@ footer div {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin: 0 7rem;
   }
   .reviews .flex .items {
+    margin-left: auto;
+    margin-right: auto;
     width: 370px;
     margin-bottom: 2.5rem;
   }
