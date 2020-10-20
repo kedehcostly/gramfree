@@ -1,13 +1,252 @@
+// @import url("https://fonts.googleapis.com/css2?family=Jockey+One&display=swap");
+
+.mob-private h2 {
+  font-size: 2.5rem;
+  font-weight: bolder;
+  margin-left: 50px;
+  //   font-family: "Jockey One", sans-serif;
+  //   padding-right: 30px;
+}
+
+.mob-private p {
+  margin-top: 20px;
+  margin-left: 3.8rem;
+  color: gray;
+}
+
 @media screen and (min-width: 1000px) {
-	.mobile-view {
-		display: none;
-		visibility: hidden;
-	}
+  .mobile-view {
+    display: none;
+    visibility: hidden;
+  }
 }
 
 @media screen and (max-width: 1000px) {
-	.desktop-view {
-		display: none !important;
-		visibility: hidden !important;
-	}
+  .desktop-view {
+    display: none !important;
+    visibility: hidden !important;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .free {
+    text-align: center;
+    h1 {
+      align-content: flex-end;
+      padding-left: 0;
+      margin-right: 20rem;
+      font-size: 4rem !important;
+      font-weight: bolder !important;
+    }
+  }
+  .feature .best {
+    margin-top: 10rem;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    margin-bottom: 2.5rem;
+  }
+  .service {
+    img {
+      width: 70%;
+      margin-left: 8rem;
+      align-items: center;
+    }
+  }
+
+  .feature .best h5 {
+    color: #679ed6;
+    font-size: 1.2rem;
+  }
+
+  .feature .best h2 {
+    font-size: 2.3rem;
+    padding-top: 0.7rem;
+  }
+
+  .counter-bg {
+    // height: 100vh;
+    width: 110%;
+    margin-left: -2.2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        from(rgba(137, 61, 209, 0.7)),
+        to(rgba(137, 61, 209, 0.7))
+      ),
+      url(../assets/images/counter_bg.jpg) center center no-repeat;
+    background: linear-gradient(
+        to bottom,
+        rgba(137, 61, 209, 0.7),
+        rgba(137, 61, 209, 0.7)
+      ),
+      url(../assets/images/counter_bg.jpg) center center no-repeat;
+    background-size: cover;
+    height: 40vh;
+    z-index: 1;
+  }
+  h1 {
+    font-size: 2.5rem;
+    color: #fff;
+    text-align: center;
+  }
+  .counter-bg p {
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .systems {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 7rem;
+
+    .item {
+      width: 340px;
+      padding-top: 50px;
+      text-align: center;
+
+      img {
+        margin-bottom: 0.7rem;
+      }
+
+      a {
+        text-decoration: none;
+        color: #000;
+        font-size: 1.5rem;
+        // margin: 1.8rem 0;
+      }
+
+      p {
+        color: #636060;
+        margin: 0.9rem 0;
+      }
+    }
+  }
+
+  .trans {
+    display: flex;
+    flex-direction: column;
+
+    .transactions {
+      width: 450px;
+      margin-top: 4rem;
+
+      h2 {
+        font-size: 2.3rem;
+        line-height: 2.7rem;
+      }
+
+      p {
+        margin-top: 1.2rem;
+        color: #636060;
+        line-height: 1.7rem;
+      }
+    }
+  }
+  .currency-img {
+    margin-right: 20px;
+    img {
+      width: 125%;
+    }
+  }
+
+  .site {
+    // border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 6rem;
+    background-color: rgb(84, 197, 235);
+    height: 50vh;
+
+    .pro {
+      color: $text-color;
+      width: 500px;
+      h2 {
+        font-size: 3rem;
+        line-height: 2.9rem;
+      }
+
+      p {
+        margin-top: 1rem;
+        line-height: 1.7rem;
+      }
+    }
+
+    .button {
+      margin-top: 30px;
+      margin-right: 22rem;
+      a {
+        font-weight: bold;
+      }
+    }
+  }
+
+  .reviews {
+    margin-bottom: 3rem;
+    .latest {
+      text-align: center;
+      letter-spacing: 0.1rem;
+      margin-bottom: 2.5rem;
+
+      h5 {
+        color: $para-color;
+        font-size: 1.2rem;
+      }
+      h2 {
+        font-size: 2.3rem;
+        padding-top: 0.7rem;
+      }
+    }
+
+    .flex {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      // align-items: center;
+      margin: 0 7rem;
+
+      .items {
+        width: 370px;
+        margin-bottom: 2.5rem;
+
+        img {
+          margin-bottom: 0.7rem;
+          width: 140%;
+        }
+
+        a {
+          text-decoration: none;
+          color: #000;
+          font-size: 1.5rem;
+          font-weight: bolder;
+          margin-top: 2.3rem;
+          text-align: center;
+        }
+
+        a:hover {
+          background-color: $text-color;
+          color: $para-color;
+          border-radius: 3px;
+          box-shadow: 1px 1px 3px wheat;
+        }
+      }
+    }
+  }
 }
