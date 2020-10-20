@@ -170,11 +170,15 @@
     }
   }
   .currency-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     img {
       margin-right: auto;
       display: block;
       margin-left: auto;
-      width: 70%;
+      width: 100%;
     }
   }
 
