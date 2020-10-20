@@ -432,7 +432,6 @@ footer div {
   }
   .service img {
     width: 70%;
-    margin-left: 8rem;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -549,7 +548,9 @@ footer div {
     line-height: 1.7rem;
   }
   .currency-img img {
-    padding-right: 10rem;
+    margin-right: auto;
+    display: block;
+    margin-left: auto;
     width: 125%;
   }
   .site {

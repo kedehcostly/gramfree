@@ -52,7 +52,7 @@
     align-items: center;
     img {
       width: 70%;
-      margin-left: 8rem;
+      // margin-left: 8rem;
       display: block;
       margin-left: auto;
       margin-right: auto;
@@ -172,7 +172,9 @@
   .currency-img {
     // margin-right: 20px;
     img {
-      padding-right: 10rem;
+      margin-right: auto;
+      display: block;
+      margin-left: auto;
       width: 125%;
     }
   }
