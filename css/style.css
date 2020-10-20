@@ -433,9 +433,9 @@ footer div {
   .service img {
     width: 70%;
     margin-left: 8rem;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
   .feature .best h5 {
     color: #679ed6;
